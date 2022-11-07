@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RPS Game</title>
+    <!-- Link CSS here -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="row">
+      <h1 class="title" style="font-weight: 900; font-size:75px; margin: 0px;">R.P.S ULTIMATE</h1>
+<!--       <h3>Rock, Paper, or Scissors? What will you choose?</h3> -->
+      <div>
+              <a href="rules.html" style="margin: 0px; color:red;"> <h1>CLICK HERE FOR RULES</h1></a>
+
+        <input class="input" />
+        <button id="play">Shoot!</button>
+      </div>
+      
+      <h1 class="rCount" style="text-align: center; color: red; font-weight: 800;">CHOOSE YOUR FIGHTER</h1>
+      <button id="resetB" style="margin:5px;">⚠️ CLICK TO RESET GAME ⚠️</button>
+
+<!--       <h3>May the odds be ever in your favor.</h3>
+ -->            
+
+    <div class="choices" class="row">
+      <div class="arsenalDiv">
+      
+      <div>
+          <h4>Your Arsenal</h4>
+        
+          <div class="arsD">
+          <p class="uRock arsP">5x</p>
+          <img class="arsI" src="https://hdclipartall.com/images/rock-clipart-rock-clip-art-2400_1588.png">
+          </div>
+        
+          <div class="arsD">
+          <p class="uPap arsP">5x</p>
+          <img class="arsI" src="https://static.thenounproject.com/png/1103947-200.png">
+          </div>
+        
+          <div class="arsD">
+          <p class="uSci arsP">5x</p>
+          <img class="arsI" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/33656/scissors-stationery-clipart-xl.png">
+          </div>
+      </div>
+      
+      <div>
+        <h4>Computer's Arsenal</h4>
+          <div class="arsD">
+          <p class="cRock arsP">5x</p>
+          <img class="arsI" src="https://hdclipartall.com/images/rock-clipart-rock-clip-art-2400_1588.png">
+          </div>
+        
+          <div class="arsD">
+          <p class="cPap arsP">5x</p>
+          <img class="arsI" src="https://static.thenounproject.com/png/1103947-200.png">
+          </div>
+        
+          <div class="arsD">
+          <p class="cSci arsP">3x</p>
+          <img class="arsI" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/33656/scissors-stationery-clipart-xl.png">
+          </div>
+      </div>
+      
+      
+    </div>
+        <div>
+          <h4>Your Choice</h4>
+          <p class="userChoice"></p>
+        </div>
+      
+        <div>
+          <h4>Computer's Choice</h4>
+          <p class="computerChoice"></p>
+        </div>
+      
+        <div>
+          <h4>Round Result</h4>
+          <p class="printedResult"></p>
+        </div>
+      
+    </div>
+      
+
+
+    <!-- Link JQuery here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Link script.js here -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
